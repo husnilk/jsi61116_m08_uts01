@@ -2,10 +2,10 @@
 
 Buatlah sebuah kelas bernama DriverOjol. Kelas ini memiliki kriteria sebagai berikut:
 
-* Memiliki properti `Nama`, `no plat motor`, `saldo`, `status`
+* Memiliki properti `Nama`, `no plat motor`, `saldo`, `status` dan seluruhnya memiliki access modifier `private`
 * Property `nama`, `no plat motor` hanya dapat dibaca saja oleh kelas lain dan diinisalisasi oleh dalam `constructor`
 * Kelas ini memiliki 2 buah `constructor`, salah satunya digunakan digunakan untuk menset `saldo`. 
-* Kelas ini memiliki method `topUp` yang digunakan untuk menambah saldo. Saldo bisa ditambahkan jika saldo > 0 dan saldo <= 1 jt.
+* Kelas ini memiliki method `topUp` yang digunakan untuk menambah saldo. Saldo bisa ditambahkan jika saldo > 0 dan saldo <= 1 jt. Tambahkan juga getter untuk property saldo.
 * Buatkan metod getter dan setter untuk properti `status`. pastikan `status` hanya bernilai 0, 1, 2 dimana 0 berarti tidak aktif, 1 berarti menunggu penumpang, 2 sedang dalam misi. Property `status` bertipe integer.
 * Kelas ini memiliki method `hitung tarif`. Method ini memiliki 2 argumen yaitu jarak bertipe integer dan macet bertipe boolean. Perhitungan tarif dilakukan sebagai berikut. Jika macet = false , Rp 3000 untuk 1km pertama, selanjutnya Rp 200 untuk setiap 100m. Sementara itu jika macet Rp 4000 untuk 1km pertama dan Rp 300 untuk 100m berikutnya.
 
